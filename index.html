@@ -2,8 +2,8 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Learn QUnit - Stopwatch</title>
-  <link rel="stylesheet" href="optional/style.css">
+  <title>&lt;input type&#61;&quot;range&quot;&gt;</title>
+  <!-- <link rel="stylesheet" href="optional/style.css"> -->
 </head>
 <body>
   <!-- no styles just browser default -->
@@ -11,8 +11,16 @@
   <input type="range">
 
   <!-- a bit more style -->
-  <h2> &lt;input type&#61;&quot;range&quot;&gt; class&#61;&quot;range-touch&quot;</h2>
+  <h2> &lt;input type&#61;&quot;range&quot; class&#61;&quot;touch&quot;&gt;</h2>
   <input type="range">
+
+  <!-- pick a JavaScript (DOM) Libarary -->
+  <script src="http://zeptojs.com/zepto.min.js"></script> <!-- 26kb -->
+  <!--  OR  -->
+  <!-- <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>  93kb!! -->
+
+  <!-- load the range-touch.js file to enable slider on touch devices -->
+  <script src="range-touch.js"></script>
 
 </body>
 </html>

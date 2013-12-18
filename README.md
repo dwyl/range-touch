@@ -4,10 +4,20 @@ range-touch
 Use **HTML5 range** input on **touch** devices 
 (iPhone, iPad &amp; Android) *without bloatware*!
 
+# Try: http://goo.gl/uWhbzg
+
 ## Requirement
 
-Let touch devices interact with the &lt;input type&#61;&quot;range&quot;&gt;
+Let touch devices interact with the 
+**&lt;input type&#61;&quot;range&quot;&gt;**
 element without any *extra* styles or script. 
+
+
+
+## Works with JQuery and/or Zepto
+
+- http://zeptojs.com/zepto.min.js [**26kb**]  (***or***)
+- code.jquery.com/jquery-1.10.2.min.js [**96kb**]
 
 
 
@@ -32,7 +42,7 @@ Our project does *not* include JQuery UI I was *reluctant* to add it
 [jquery-ui-1.10.3.js](http://code.jquery.com/ui/1.10.3/jquery-ui.js) 
 is **436kb**!! Even the ***minified*** version 
 [jquery-ui.min.js](http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.3/jquery-ui.min.js)
-is still **228kb** and then you *also* need the CSS file (another **32kb**): 
+is a whopping **228kb** and you *also* need the CSS file (another **32kb**): 
 [jquery-ui.css](http://code.jquery.com/ui/1.10.3/themes/smoothness/jquery-ui.css) 
 (So unless you need *several* of Jquery UI's features, loading **260kb** 
 on a mobile device is going to be *painfully slow*!) <br />
@@ -53,7 +63,9 @@ We need a
 
 ### Alternatives
 
-- JQuery Mobile: http://view.jquerymobile.com/1.3.2/dist/demos/widgets/sliders/
+- JQuery Mobile: 
+http://view.jquerymobile.com/1.3.2/dist/demos/widgets/sliders/ +
+http://jquerymobile.com/download-builder/ [still *huge*!]
 - TouchPunch [**Requires JQuery UI**!!]: http://touchpunch.furf.com/ +
 https://github.com/furf/jquery-ui-touch-punch
 - fd-slider [*bloated*!] https://github.com/freqdec/fd-slider
