@@ -1,23 +1,24 @@
 range-touch
 ===========
 
-Use **HTML5 range** input on **touch** devices 
-(iPhone, iPad &amp; Android) *without bloatware*!
+Lets you use **HTML5 range** input on **touch** devices 
+(iPhone, iPad &amp; Android) with a single 2kb JS file (*no bloatware*)!
 
-# Try: http://goo.gl/uWhbzg
+## Try it: http://goo.gl/uWhbzg
 
-## Requirement
+## Requirements
 
-Let touch devices interact with the 
-**&lt;input type&#61;&quot;range&quot;&gt;**
-element without any *extra* styles or script. 
+> Let touch devices interact with the 
+> **&lt;input type&#61;&quot;range&quot;&gt;**
+> element without any *extra* styles or script.
 
 
 
 ## Works with JQuery and/or Zepto
 
-- http://zeptojs.com/zepto.min.js [**26kb**]  (***or***)
-- code.jquery.com/jquery-1.10.2.min.js [**96kb**]
+- http://zeptojs.com/zepto.min.js [**26kb**] 
+***or***
+- http://code.jquery.com/jquery-1.10.2.min.js [**96kb**]
 
 
 
@@ -56,6 +57,7 @@ My first search for a solution took me to **StackOverflow**:
 
 - http://stackoverflow.com/questions/5484540/recreating-the-html5-range-input-for-mobile-safari-webkit
 - http://stackoverflow.com/questions/16732569/zepto-js-tap-event-doesnt-fire
+- http://stackoverflow.com/questions/3556157/how-to-customize-the-html5-input-range-type-looks-using-css
 
 But none of the answers solved the problem *satisfactorily*. 
 All of them require a CSS file which overrides styles we have in our project!
@@ -69,6 +71,17 @@ http://jquerymobile.com/download-builder/ [still *huge*!]
 - TouchPunch [**Requires JQuery UI**!!]: http://touchpunch.furf.com/ +
 https://github.com/furf/jquery-ui-touch-punch
 - fd-slider [*bloated*!] https://github.com/freqdec/fd-slider
-- noUiSlider: http://refreshless.com/nouislider/ + 
+- noUiSlider [**38kb**]: http://refreshless.com/nouislider/ + 
 https://github.com/leongersen/noUiSlider
 - Jquery Tools: https://github.com/jquerytools/jquerytools
+- Range Polyfill: https://github.com/jonstipe/range-polyfill
+- Modernizr: https://github.com/Modernizr/Modernizr/
+
+### Bibliography
+
+- Intro to &lt;input type&#61;&quot;range&quot;&gt;: 
+http://www.html5tutorial.info/html5-range.php
+- Quirksmode Confirms Not Currently Supported in Safari Mobile:
+http://www.quirksmode.org/html5/inputs_mobile.html
+- http://www.developerdrive.com/2013/09/how-to-style-range-sliders-in-webkit/
+- http://fusiongrokker.com/post/using-the-zepto-js-touch-events-plugin-for-more-responsive-phonegap-apps-without-zepto
