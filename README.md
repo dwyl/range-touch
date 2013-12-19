@@ -1,8 +1,8 @@
 range-touch
 ===========
 
-Lets you use **HTML5 range** input on **touch** devices 
-(iPhone, iPad &amp; Android) with a single 2kb JS file (*no bloatware*)!
+Lets you use **HTML5 range** input on **touch** devices <br />
+(iPhone, iPad &amp; Android) with a *single* **2kb** JS file (*no bloatware*)!
 
 ## Try it: http://goo.gl/uWhbzg
 
@@ -22,14 +22,14 @@ Lets you use **HTML5 range** input on **touch** devices
 
 !["range-touch iPhone"](http://i.imgur.com/hpkWznf.jpg)
 
-#### iPad (Safari Mobile iOS 7)
-
-!["range-touch iPad"](http://i.imgur.com/Y20bJN6.jpg)
-
-
 #### Android (Samsung Galaxy S3 - Default Browser 4.2)
 
 !["range-touch Android"](http://i.imgur.com/ZraQBwG.png)
+
+
+#### iPad (Safari Mobile iOS 7)
+
+!["range-touch iPad"](http://i.imgur.com/Y20bJN6.jpg)
 
 
 - - -
