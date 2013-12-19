@@ -72,7 +72,7 @@ My first search for a solution took me to **StackOverflow**:
 
 But none of the answers solved the problem *satisfactorily*. 
 All of them require a CSS file which overrides styles we have in our project!
-We need a 
+We need a lightweight solution that ***only*** adds touch support and no styles!
 
 ### Alternatives
 
