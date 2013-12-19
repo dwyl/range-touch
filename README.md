@@ -16,7 +16,20 @@ Lets you use **HTML5 range** input on **touch** devices
 5. Works with [JQuery](http://code.jquery.com/jquery-1.10.2.min.js) [**96kb**] 
 ***or*** [Zepto](http://zeptojs.com/zepto.min.js) [**26kb**]
 
+## Results
 
+#### iPhone (Safari Mobile iOS 7)
+
+!["range-touch iPhone"](http://i.imgur.com/hpkWznf.jpg)
+
+#### iPad (Safari Mobile iOS 7)
+
+!["range-touch iPad"](http://i.imgur.com/Y20bJN6.jpg)
+
+
+#### Android (Samsung Galaxy S3 - Default Browser 4.2)
+
+!["range-touch Android"](http://i.imgur.com/ZraQBwG.png)
 
 
 - - -

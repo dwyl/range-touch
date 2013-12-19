@@ -1,0 +1,53 @@
+body {
+  margin-left: 3%;
+}
+
+.touch {
+    width: 40%;
+}
+
+.custom {
+  width: 80%;
+  -webkit-appearance: none !important;
+  height:20px;
+  border-radius: 8px;
+  background:-webkit-gradient(linear,center top, center bottom, from(#CFDCDD),to(#DFE9EA),color-stop(50%,#DFE9EA));
+-webkit-transition: background 450ms;
+  transition: background 450ms;
+
+}
+
+/* Change the Slider Button Color Here */
+.custom::-webkit-slider-thumb {
+    -webkit-appearance: none !important;
+    background:#108A93;
+    height:30px;
+    width:30px;
+    border-radius: 15px;
+}
+
+.custom::-webkit-slider-thumb:before {
+  background-color: yellow;
+}
+
+
+
+/* FONT is only relevant to this Demo */
+
+@font-face {
+  font-family: 'Averia Gruesa Libre';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Averia Gruesa Libre'), local('AveriaGruesaLibre-Regular'), url(http://themes.googleusercontent.com/static/fonts/averiagruesalibre/v1/10vbZTOoN6T8D-nvDzwRF5uuuq_qXTp1UlATXrEEszk.woff) format('woff');
+}
+body {
+  font-family: 'Averia Gruesa Libre',sans-serif;
+}
+
+/* ONLY applicable if you want the bubble above the slider */
+
+output { 
+  width: 100px;
+  height: 40px;
+  font-size: 2em;
+}

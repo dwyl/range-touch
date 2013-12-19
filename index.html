@@ -3,24 +3,38 @@
 <head>
   <meta charset="utf-8">
   <title>&lt;input type&#61;&quot;range&quot;&gt;</title>
-  <!-- <link rel="stylesheet" href="optional/style.css"> -->
+  <!-- CSS Styles are 100% Optional! -->
+  <link rel="stylesheet" href="optional/style.css">
+
 </head>
 <body>
   <!-- no styles just browser default -->
-  <h2> &lt;input type&#61;&quot;range&quot;&gt; </h2>
+  <h2> &lt;input type&#61;&quot;range&quot;&gt;  (browser default)</h2>
   <input type="range">
 
   <!-- a bit more style -->
-  <h2> &lt;input type&#61;&quot;range&quot; class&#61;&quot;touch&quot;&gt;</h2>
-  <input type="range">
+  <h2> &lt;input type&#61;&quot;range&quot; class&#61;&quot;custom&quot;&gt; (a bit of style)</h2>
+  <input type="range" class="custom" value ="0">
 
-  <!-- pick a JavaScript (DOM) Libarary -->
+    <!-- a bit more style -->
+  <h2> &lt;input type&#61;&quot;range&quot; class&#61;&quot;custom&quot;&gt; (customize everything)</h2>
+  <input type="range" class="custom" min="0" max="100" value ="0">
+
+
+  <h2> &lt;input type&#61;&quot;range&quot; class&#61;&quot;display-value&quot;&gt; (display value while sliding)</h2>
+  <input type="range" class="custom display-value" min="0" max="100" value ="0">
+  <output>0</output>%
+
+  <!-- Pick a JavaScript (DOM) Libarary -->
   <script src="http://zeptojs.com/zepto.min.js"></script> <!-- 26kb -->
   <!--  OR  -->
   <!-- <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>  93kb!! -->
 
   <!-- load the range-touch.js file to enable slider on touch devices -->
   <script src="range-touch.js"></script>
+
+  <!-- OPTIONAL: display the value as the slider is changing -->
+  <script src="optional/display-range-value.js"></script>
 
 </body>
 </html>

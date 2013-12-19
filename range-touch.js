@@ -157,4 +157,4 @@
     'doubleTap', 'tap', 'singleTap', 'longTap'].forEach(function(eventName){
     $.fn[eventName] = function(callback){ return this.on(eventName, callback) }
   })
-})(window.$)
+})(window.$) // based on: https://raw.github.com/madrobby/zepto/master/src/touch.js
