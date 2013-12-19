@@ -8,17 +8,14 @@ Lets you use **HTML5 range** input on **touch** devices
 
 ## Requirements
 
-> Let touch devices interact with the 
-> **&lt;input type&#61;&quot;range&quot;&gt;**
-> element without any *extra* styles or script.
+1. Let touch devices interact with the 
+**&lt;input type&#61;&quot;range&quot;&gt;** element 
+2. Do not *force* people to use any *extra* styles or script.
+3. Do not modify markup on the page (other scripts do wierd things!)
+4. Degrade gracefully for people with JavaScript disabled (desktop only)
+5. Works with [JQuery](http://code.jquery.com/jquery-1.10.2.min.js) [**96kb**] 
+***or*** [Zepto](http://zeptojs.com/zepto.min.js) [**26kb**]
 
-
-
-## Works with JQuery and/or Zepto
-
-- http://zeptojs.com/zepto.min.js [**26kb**] 
-***or***
-- http://code.jquery.com/jquery-1.10.2.min.js [**96kb**]
 
 
 
@@ -33,7 +30,7 @@ Unfortunately, at the time of writing, *Mobile* Safari
 
 ### Why Not Use JQuery UI...?
 
-Someone in the office *proclaimed* (in a *patronizing* tone): 
+A (*non-technical*) person in the office *asked* (in *patronizing* tone): 
 
 > "*Why don't you just use Jquery UI Slider...?*"
 > http://jqueryui.com/slider/
@@ -58,6 +55,7 @@ My first search for a solution took me to **StackOverflow**:
 - http://stackoverflow.com/questions/5484540/recreating-the-html5-range-input-for-mobile-safari-webkit
 - http://stackoverflow.com/questions/16732569/zepto-js-tap-event-doesnt-fire
 - http://stackoverflow.com/questions/3556157/how-to-customize-the-html5-input-range-type-looks-using-css
+- http://stackoverflow.com/questions/5165287/how-to-achive-background-color-in-html5-inputtype-range
 
 But none of the answers solved the problem *satisfactorily*. 
 All of them require a CSS file which overrides styles we have in our project!
@@ -85,3 +83,4 @@ http://www.html5tutorial.info/html5-range.php
 http://www.quirksmode.org/html5/inputs_mobile.html
 - http://www.developerdrive.com/2013/09/how-to-style-range-sliders-in-webkit/
 - http://fusiongrokker.com/post/using-the-zepto-js-touch-events-plugin-for-more-responsive-phonegap-apps-without-zepto
+- http://stackoverflow.com/questions/18389224/how-to-style-html5-range-input-to-have-different-color-before-and-after-slider
