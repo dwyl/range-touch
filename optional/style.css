@@ -38,7 +38,7 @@ body {
   font-family: 'Averia Gruesa Libre';
   font-style: normal;
   font-weight: 400;
-  src: local('Averia Gruesa Libre'), local('AveriaGruesaLibre-Regular'), url(http://themes.googleusercontent.com/static/fonts/averiagruesalibre/v1/10vbZTOoN6T8D-nvDzwRF5uuuq_qXTp1UlATXrEEszk.woff) format('woff');
+  src: local('Averia Gruesa Libre'), local('AveriaGruesaLibre-Regular'), url(https://themes.googleusercontent.com/static/fonts/averiagruesalibre/v1/10vbZTOoN6T8D-nvDzwRF5uuuq_qXTp1UlATXrEEszk.woff) format('woff');
 }
 body {
   font-family: 'Averia Gruesa Libre',sans-serif;
@@ -46,7 +46,7 @@ body {
 
 /* ONLY applicable if you want the bubble above the slider */
 
-output { 
+output {
   width: 100px;
   height: 40px;
   font-size: 2em;
