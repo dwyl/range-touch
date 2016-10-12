@@ -41,6 +41,10 @@
       e.type.toLowerCase() == 'mspointer'+type)
   }
 
+  function extractTouchesFromEvent(e) {
+    return (e.touches || e.originalEvent.touches)
+  }
+
   $(document).ready(function(){
     var now, delta, deltaX = 0, deltaY = 0, firstTouch, _isPointerType
 
@@ -61,8 +65,11 @@
       .on('touchstart MSPointerDown pointerdown', function(e){
         if((_isPointerType = isPointerEventType(e, 'down')) &&
           !isPrimaryTouch(e)) return
-        firstTouch = _isPointerType ? e : e.touches[0]
-        if (e.touches && e.touches.length === 1 && touch.x2) {
+
+        var touchList = extractTouchesFromEvent(e)
+
+        firstTouch = _isPointerType ? e : touchList[0]
+        if (touchList && touchList.length === 1 && touch.x2) {
           // Clear out touch movement data if we have it sticking around
           // This can occur if touchcancel doesn't fire due to preventDefault, etc.
           touch.x2 = undefined
@@ -84,7 +91,10 @@
       .on('touchmove MSPointerMove pointermove', function(e){
         if((_isPointerType = isPointerEventType(e, 'move')) &&
           !isPrimaryTouch(e)) return
-        firstTouch = _isPointerType ? e : e.touches[0]
+
+        var touchList = extractTouchesFromEvent(e)
+
+        firstTouch = _isPointerType ? e : touchList[0]
         cancelLongTap()
         touch.x2 = firstTouch.pageX
         touch.y2 = firstTouch.pageY
