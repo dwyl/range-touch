@@ -30,15 +30,14 @@ body {
   background-color: yellow;
 }
 
-
-
 /* FONT is only relevant to this Demo */
 
 @font-face {
   font-family: 'Averia Gruesa Libre';
   font-style: normal;
   font-weight: 400;
-  src: local('Averia Gruesa Libre'), local('AveriaGruesaLibre-Regular'), url(https://themes.googleusercontent.com/static/fonts/averiagruesalibre/v1/10vbZTOoN6T8D-nvDzwRF5uuuq_qXTp1UlATXrEEszk.woff) format('woff');
+  src: local('Averia Gruesa Libre'), local('AveriaGruesaLibre-Regular'),
+    url(https://themes.googleusercontent.com/static/fonts/averiagruesalibre/v1/10vbZTOoN6T8D-nvDzwRF5uuuq_qXTp1UlATXrEEszk.woff) format('woff');
 }
 body {
   font-family: 'Averia Gruesa Libre',sans-serif;
