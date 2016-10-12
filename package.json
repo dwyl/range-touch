@@ -4,25 +4,31 @@
   "description": "range-touch is my answer to: http://stackoverflow.com/questions/5484540",
   "main": "range-touch.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Tested in Real Web Browsers by People\" && exit 0",
+    "start": "node demo/heroku.js"
   },
   "engines": {
     "node": "0.10.x"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/nelsonic/range-touch.git"
+    "url": "https://github.com/dwyl/range-touch.git"
   },
   "keywords": [
     "mobile",
     "safari",
+    "iOS",
+    "iPhone",
+    "iPad",
     "range",
-    "input"
+    "input",
+    "jquery compatible",
+    "zepto"
   ],
-  "author": "@nelsonic <contact.nelsonic@gmail.com> (https://github.com/nelsonic)",
-  "license": "ISC",
+  "author": "@nelsonic <nelson+github@dwyl.io> (https://github.com/nelsonic)",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/nelsonic/range-touch/issues"
+    "url": "https://github.com/dwyl/range-touch/issues"
   },
-  "homepage": "https://github.com/nelsonic/range-touch"
+  "homepage": "https://github.com/dwyl/range-touch"
 }
